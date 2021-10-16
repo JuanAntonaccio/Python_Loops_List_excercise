@@ -3,5 +3,8 @@ contact = {
     "phone": "321-321-4321",
     "email": "test@test.com"
 }
-#Your code here:
+#Your code here
+for i,j in contact.items():
+    print(f"{i} : {j}")
+
 
