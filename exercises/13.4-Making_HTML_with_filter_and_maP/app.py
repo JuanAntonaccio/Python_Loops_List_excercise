@@ -9,4 +9,17 @@ all_colors = [
 ]
 
 #Your code go here:
+def generate_li(item):
+	if item["sexy"]:
+		return item["label"]
+new_list=list(filter(generate_li, all_colors))	
+print(new_list)	
+def filter_colors(item):
+	return "<li>"+item['label']+"</li>"
+new_list2=list(map(filter_colors,new_list))	
+print (new_list2)
+sex=""
+for i in new_list2:
+	sex+=i
+print(sex)	
 

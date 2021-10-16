@@ -7,11 +7,5 @@ incomingAJAXData = [
 ]
 
 #Your code go here:
-def my_var(items):
-	a=items['name']+" "+items['lastName']
-	return a
-
-transformedData = list(map(my_var,incomingAJAXData))
-print(transformedData)	
 
 

@@ -12,8 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def my_function(item):
-	return item['done']
-new_taks=list(filter(my_function,tasks)	)
-print(new_taks)
 
