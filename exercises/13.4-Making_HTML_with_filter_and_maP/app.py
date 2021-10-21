@@ -15,6 +15,7 @@ def generate_li(item):
 new_list=list(filter(generate_li, all_colors))	
 print(new_list)	
 def filter_colors(item):
+    
 	return "<li>"+item['label']+"</li>"
 new_list2=list(map(filter_colors,new_list))	
 print (new_list2)
